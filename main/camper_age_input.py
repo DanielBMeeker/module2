@@ -3,4 +3,4 @@ def convert_to_months(x):
 
 
 if __name__ == '__main__':
-    pass
+    convert_to_months(x)
