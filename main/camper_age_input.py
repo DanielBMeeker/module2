@@ -6,11 +6,12 @@ Date: 06/03/2020
 This program demonstrates Test Driven Development
 in Python with a simple function and unit test.
 """
+# defining a constant used in the function
+MONTH_CONVERSION = 12
 
 
 def convert_to_months(years):
-    months = 12
-    months *= years
+    months = MONTH_CONVERSION * years
     return months
 
 
